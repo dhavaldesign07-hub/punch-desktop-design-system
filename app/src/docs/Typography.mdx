@@ -1,0 +1,156 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Foundations/Typography" />
+
+export function TypeRow({ name, token, size, lineHeight, weight }) {
+  const weightMap = { 700: 'Bold', 600: 'Semi Bold', 500: 'Medium', 400: 'Regular' };
+  return (
+    <div style={{
+      display: 'flex',
+      alignItems: 'baseline',
+      gap: 24,
+      padding: '12px 0',
+      borderBottom: '1px solid #2a2e40',
+    }}>
+      <div style={{ minWidth: 180, flexShrink: 0 }}>
+        <strong style={{ fontSize: 13 }}>{name}</strong>
+        <div style={{ fontSize: 11, color: '#888', fontFamily: 'monospace' }}>
+          {size} / {lineHeight} / {weightMap[weight] || weight}
+        </div>
+        <code style={{ fontSize: 10, color: '#666' }}>{token}</code>
+      </div>
+      <p style={{
+        fontFamily: "'Inter', system-ui, sans-serif",
+        fontSize: size,
+        lineHeight: lineHeight,
+        fontWeight: weight,
+        margin: 0,
+        whiteSpace: 'nowrap',
+        overflow: 'hidden',
+        textOverflow: 'ellipsis',
+      }}>
+        The quick brown fox jumps over the lazy dog
+      </p>
+    </div>
+  );
+}
+
+export function TypeSection({ title, description, children }) {
+  return (
+    <div style={{ marginBottom: 32 }}>
+      <h3 style={{ marginBottom: 4 }}>{title}</h3>
+      {description && <p style={{ fontSize: 13, color: '#888', marginTop: 0 }}>{description}</p>}
+      {children}
+    </div>
+  );
+}
+
+# Typography
+
+All text styles from the [Punch Desktop Design System](https://www.figma.com/design/y1hJPuNFlUlkgYIYfVL2k5/Punch-Desktop-Design-System) Figma file.
+Values live in `src/styles/tokens.css` as CSS custom properties.
+
+## Font Family
+
+<div style={{ padding: 24, backgroundColor: '#1a1e30', borderRadius: 12, marginBottom: 32 }}>
+  <p style={{
+    fontFamily: "'Inter', system-ui, sans-serif",
+    fontSize: 32,
+    fontWeight: 400,
+    color: '#fff',
+    margin: 0,
+  }}>
+    Inter — The quick brown fox jumps over the lazy dog
+  </p>
+  <code style={{ fontSize: 12, color: '#888', marginTop: 8, display: 'block' }}>
+    --font-family-base: 'Inter', system-ui, sans-serif
+  </code>
+</div>
+
+## Type Scale
+
+<TypeSection title="Heading / H1" description="28px / 36px — page titles, hero text">
+  <TypeRow name="H1 Bold" token="--font-heading-h1-bold" size="28px" lineHeight="36px" weight={700} />
+  <TypeRow name="H1 Semi Bold" token="--font-heading-h1-semibold" size="28px" lineHeight="36px" weight={600} />
+  <TypeRow name="H1 Medium" token="--font-heading-h1-medium" size="28px" lineHeight="36px" weight={500} />
+  <TypeRow name="H1 Regular" token="--font-heading-h1-regular" size="28px" lineHeight="36px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Heading / H2" description="24px / 32px — section headings">
+  <TypeRow name="H2 Bold" token="--font-heading-h2-bold" size="24px" lineHeight="32px" weight={700} />
+  <TypeRow name="H2 Semi Bold" token="--font-heading-h2-semibold" size="24px" lineHeight="32px" weight={600} />
+  <TypeRow name="H2 Medium" token="--font-heading-h2-medium" size="24px" lineHeight="32px" weight={500} />
+  <TypeRow name="H2 Regular" token="--font-heading-h2-regular" size="24px" lineHeight="32px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Body / B1" description="18px / 24px — large body text, introductions">
+  <TypeRow name="B1 Bold" token="--font-body-b1-bold" size="18px" lineHeight="24px" weight={700} />
+  <TypeRow name="B1 Semi Bold" token="--font-body-b1-semibold" size="18px" lineHeight="24px" weight={600} />
+  <TypeRow name="B1 Medium" token="--font-body-b1-medium" size="18px" lineHeight="24px" weight={500} />
+  <TypeRow name="B1 Regular" token="--font-body-b1-regular" size="18px" lineHeight="24px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Body / B2" description="16px / 20px — default body text, buttons">
+  <TypeRow name="B2 Bold" token="--font-body-b2-bold" size="16px" lineHeight="20px" weight={700} />
+  <TypeRow name="B2 Semi Bold" token="--font-body-b2-semibold" size="16px" lineHeight="20px" weight={600} />
+  <TypeRow name="B2 Medium" token="--font-body-b2-medium" size="16px" lineHeight="20px" weight={500} />
+  <TypeRow name="B2 Regular" token="--font-body-b2-regular" size="16px" lineHeight="20px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Body / B3" description="14px / 18px — secondary text, labels">
+  <TypeRow name="B3 Bold" token="--font-body-b3-bold" size="14px" lineHeight="18px" weight={700} />
+  <TypeRow name="B3 Semi Bold" token="--font-body-b3-semibold" size="14px" lineHeight="18px" weight={600} />
+  <TypeRow name="B3 Medium" token="--font-body-b3-medium" size="14px" lineHeight="18px" weight={500} />
+  <TypeRow name="B3 Regular" token="--font-body-b3-regular" size="14px" lineHeight="18px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Body / B4" description="12px / 16px — small text, metadata">
+  <TypeRow name="B4 Bold" token="--font-body-b4-bold" size="12px" lineHeight="16px" weight={700} />
+  <TypeRow name="B4 Semi Bold" token="--font-body-b4-semibold" size="12px" lineHeight="16px" weight={600} />
+  <TypeRow name="B4 Medium" token="--font-body-b4-medium" size="12px" lineHeight="16px" weight={500} />
+  <TypeRow name="B4 Regular" token="--font-body-b4-regular" size="12px" lineHeight="16px" weight={400} />
+</TypeSection>
+
+<TypeSection title="Caption / C1" description="10px / auto — captions, annotations">
+  <TypeRow name="C1 Bold" token="--font-caption-c1-bold" size="10px" lineHeight="normal" weight={700} />
+  <TypeRow name="C1 Semi Bold" token="--font-caption-c1-semibold" size="10px" lineHeight="normal" weight={600} />
+  <TypeRow name="C1 Medium" token="--font-caption-c1-medium" size="10px" lineHeight="normal" weight={500} />
+  <TypeRow name="C1 Regular" token="--font-caption-c1-regular" size="10px" lineHeight="normal" weight={400} />
+</TypeSection>
+
+<TypeSection title="Caption / C2" description="9px / auto — fine print, timestamps">
+  <TypeRow name="C2 Bold" token="--font-caption-c2-bold" size="9px" lineHeight="normal" weight={700} />
+  <TypeRow name="C2 Semi Bold" token="--font-caption-c2-semibold" size="9px" lineHeight="normal" weight={600} />
+  <TypeRow name="C2 Medium" token="--font-caption-c2-medium" size="9px" lineHeight="normal" weight={500} />
+  <TypeRow name="C2 Regular" token="--font-caption-c2-regular" size="9px" lineHeight="normal" weight={400} />
+</TypeSection>
+
+<TypeSection title="Caption / C3" description="8px / 10px — micro text, dense data">
+  <TypeRow name="C3 Bold" token="--font-caption-c3-bold" size="8px" lineHeight="10px" weight={700} />
+  <TypeRow name="C3 Semi Bold" token="--font-caption-c3-semibold" size="8px" lineHeight="10px" weight={600} />
+  <TypeRow name="C3 Medium" token="--font-caption-c3-medium" size="8px" lineHeight="10px" weight={500} />
+  <TypeRow name="C3 Regular" token="--font-caption-c3-regular" size="8px" lineHeight="10px" weight={400} />
+</TypeSection>
+
+---
+
+## Token Reference
+
+Each text style has three tokens following the pattern `--font-{category}-{size}-{weight}-{property}`:
+
+| Token suffix | Property |
+|---|---|
+| `-size` | `font-size` |
+| `-line-height` | `line-height` |
+| `-weight` | `font-weight` |
+
+**Example usage:**
+
+```css
+.heading {
+  font-family: var(--font-family-base);
+  font-size: var(--font-heading-h1-bold-size);
+  line-height: var(--font-heading-h1-bold-line-height);
+  font-weight: var(--font-heading-h1-bold-weight);
+}
+```

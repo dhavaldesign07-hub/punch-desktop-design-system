@@ -1,0 +1,596 @@
+/**
+ * Design tokens from the Punch Desktop Design System Figma Variables.
+ * Auto-generated from all_color_variables.json — do not edit by hand.
+ * Source: https://www.figma.com/design/y1hJPuNFlUlkgYIYfVL2k5/Punch-Desktop-Design-System
+ */
+
+:root {
+  /* ═══════════════════════════════════════════════════════
+     Primitives — raw color palette
+     ═══════════════════════════════════════════════════════ */
+
+  /* Gray */
+  --primitive-100: #d8d8d8;
+  --primitive-200: #b1b1b1;
+  --primitive-300: #909090;
+  --primitive-400: #888888;
+  --primitive-50: #ededed;
+  --primitive-500: #6e6e6e;
+  --primitive-600: #585858;
+  --primitive-700: #313131;
+  --primitive-800: #1e1e1e;
+  --primitive-850: #191919;
+  --primitive-900: #0a0a0a;
+
+  /* Neutral */
+  --primitive-neutral-1000: #101529;
+  --primitive-neutral-200: #d3d7f0;
+  --primitive-neutral-300: #c3c7e0;
+  --primitive-neutral-400: #b0b4cd;
+  --primitive-neutral-50: #f6f7fc;
+  --primitive-neutral-500: #777c99;
+  --primitive-neutral-600: #676b84;
+  --primitive-neutral-700: #3f445c;
+  --primitive-neutral-800: #1e223b;
+  --primitive-neutral-900: #181d34;
+
+  /* Blue */
+  --primitive-blue-100: #80deea;
+  --primitive-blue-1000: #2d3e5b;
+  --primitive-blue-1100: #2d3765;
+  --primitive-blue-200: #22d7ff;
+  --primitive-blue-300: #00bcd4;
+  --primitive-blue-400: #0d8afd;
+  --primitive-blue-500: #48528e;
+  --primitive-blue-600: #343a62;
+  --primitive-blue-700: #212b54;
+  --primitive-blue-800: #1c2138;
+  --primitive-blue-900: #bbd9fb;
+
+  /* Green */
+  --primitive-green-100: #ace5dc;
+  --primitive-green-1000: #102d36;
+  --primitive-green-1100: #018d57;
+  --primitive-green-1200: #0b9981;
+  --primitive-green-1300: #0f6e66;
+  --primitive-green-1400: #5d8978;
+  --primitive-green-1500: #8aceb4;
+  --primitive-green-1600: #0b9e81;
+  --primitive-green-1700: #098068;
+  --primitive-green-1800: #076654;
+  --primitive-green-1900: #065747;
+  --primitive-green-200: #85ccc0;
+  --primitive-green-2000: #05473b;
+  --primitive-green-2100: #05ffce;
+  --primitive-green-2200: #00ccaa;
+  --primitive-green-2300: #1d3a1d;
+  --primitive-green-2400: #2b470d;
+  --primitive-green-2500: #3c6313;
+  --primitive-green-2600: #578e1b;
+  --primitive-green-2700: #71b923;
+  --primitive-green-2800: #48b196;
+  --primitive-green-2900: #a5d6a7;
+  --primitive-green-300: #0ec7a3;
+  --primitive-green-3000: #388e3c;
+  --primitive-green-3100: #cae5e1;
+  --primitive-green-400: #02ff9e;
+  --primitive-green-500: #34b71f;
+  --primitive-green-600: #4caf50;
+  --primitive-green-700: #089981;
+  --primitive-green-800: #0f6e66;
+  --primitive-green-900: #20546b;
+
+  /* Red */
+  --primitive-red-100: #f99aa2;
+  --primitive-red-1000: #f23645;
+  --primitive-red-1100: #8f4c5b;
+  --primitive-red-1200: #6e2741;
+  --primitive-red-1300: #c9697e;
+  --primitive-red-1400: #cc3958;
+  --primitive-red-1500: #9e2c44;
+  --primitive-red-1600: #6e1f2f;
+  --primitive-red-1700: #571825;
+  --primitive-red-1800: #422531;
+  --primitive-red-1900: #cc3958;
+  --primitive-red-200: #f3392f;
+  --primitive-red-2000: #ff0505;
+  --primitive-red-2100: #560b07;
+  --primitive-red-2200: #a4150e;
+  --primitive-red-2300: #f3392f;
+  --primitive-red-2400: #ec251b;
+  --primitive-red-2500: #f3392f;
+  --primitive-red-2600: #ff476e;
+  --primitive-red-2700: #cf4246;
+  --primitive-red-2800: #f9dbde;
+  --primitive-red-300: #ff4057;
+  --primitive-red-400: #f23645;
+  --primitive-red-500: #cc3958;
+  --primitive-red-600: #6e2741;
+  --primitive-red-700: #27192f;
+  --primitive-red-800: #f48fb1;
+  --primitive-red-900: #e91e63;
+
+  /* Orange */
+  --primitive-orange-100: #ffcc80;
+  --primitive-orange-200: #ff9800;
+  --primitive-orange-300: #ff7a44;
+
+  /* Yellow */
+  --primitive-yellow-100: #fff9c4;
+  --primitive-yellow-200: #ffeb3b;
+  --primitive-yellow-300: #ffc551;
+  --primitive-yellow-400: #5d4f3b;
+  --primitive-yellow-500: #9e7e4f;
+
+  /* Purple */
+  --primitive-purple-100: #e1bee7;
+  --primitive-purple-200: #b39ddb;
+  --primitive-purple-300: #9c27b0;
+  --primitive-purple-400: #7c17fd;
+  --primitive-purple-500: #673ab7;
+  --primitive-purple-600: #373255;
+  --primitive-purple-700: #de49d4;
+
+  /* Black and White */
+  --primitive-black-and-white-black: #10121b;
+  --primitive-black-and-white-white: #ffffff;
+
+  /* ═══════════════════════════════════════════════════════
+     Punch DDS — semantic tokens (Dark theme = default)
+     ═══════════════════════════════════════════════════════ */
+
+  /* Background */
+  --background-bg-error-neutral-dim: #8f4c5b;
+  --background-bg-hover-context-menu: #48528e;
+  --background-bg-hover-fut-expiry: #212b54;
+  --background-bg-hover-position-maximise: #212b54;
+  --background-bg-hover-side-menu: #212b54;
+  --background-bg-hover-thumbnail-action: #48528e;
+  --background-bg-search-bar: #48528e;
+  --background-bg-success-dim: #5d8978;
+
+  /* Buttons */
+  --buttons-bg-no: #101529;
+  --buttons-bg-yes: #101529;
+  --buttons-liquid-buy: #2d3e5b;
+  --buttons-liquid-sell: #8f4c5b;
+
+  /* Chart */
+  --chart-bar-volume-a: #0ec7a3;
+  --chart-bar-volume-b: #cc3958;
+
+  /* Color Picker */
+  --color-picker-swatch-black-34: #000000;
+  --color-picker-swatch-green-33: #388e3c;
+  --color-picker-swatch-white-32: #d1d4dc;
+
+  /* Gradients */
+  --gradients-bg-blue-2: #212b54;
+  --gradients-bg-blue-4: #101529;
+  --gradients-bg-heatmap-hover-b: #101529;
+  --gradients-bg-row-loading-b: #181d34;
+  --gradients-bg-scalper-header: #676b84;
+  --gradients-bg-scalper-header-diffuse: #343a62;
+  --gradients-bg-thumbnail-a: #0d8afd;
+  --gradients-bg-thumbnail-b: #8a38f5;
+  --gradients-bg-top-pane-rename-diffuse: #343a62;
+  --gradients-bg-top-panel-mask-b: #101529;
+
+  /* Icons */
+  --icons-icon-error: #ff4057;
+
+  /* Indicators and Drawings */
+  --indicators-and-drawings-fill-white: #ffffff;
+
+  /* Input Field */
+  --input-field-bg-hover-watchlist-menu: #343a62;
+  --input-field-input-field-hover: #d3d7f0;
+
+  /* Liquid */
+  --liquid-bg-blue: #212b54;
+  --liquid-bg-blue-2: #676b84;
+  --liquid-bg-blue-3: #101529;
+  --liquid-bg-dock-icon: #48528e;
+  --liquid-bg-exit-all-default: #ff4057;
+  --liquid-bg-exit-all-hover: #ff4057;
+  --liquid-bg-expiry-dropdown: #101529;
+  --liquid-bg-green: #5d8978;
+  --liquid-bg-heatmap-button: #676b84;
+  --liquid-bg-market-depth: #212b54;
+  --liquid-bg-menu-icon-hover: #d3d7f0;
+  --liquid-bg-pin-to-chart-hover: #3f445c;
+  --liquid-bg-pink: #6e2741;
+  --liquid-bg-position-form: #48528e;
+  --liquid-bg-red: #cc3958;
+  --liquid-bg-red-2: #8f4c5b;
+  --liquid-bg-scalper-buy-default: #0ec7a3;
+  --liquid-bg-scalper-dropdown-hover: #212b54;
+  --liquid-bg-scalper-dropdown-reset-hover: #48528e;
+  --liquid-bg-scalper-input: #101529;
+  --liquid-bg-scalper-input-right-click: #101529;
+  --liquid-bg-scalper-market-depth: #48528e;
+  --liquid-bg-settings-hover: #212b54;
+  --liquid-bg-shortcut-hover: #48528e;
+  --liquid-bg-teal: #0ec7a3;
+  --liquid-bg-teal-2: #0f6e66;
+  --liquid-bg-template-delete-hover: #d3d7f0;
+  --liquid-bg-template-favorite-hover: #212b54;
+  --liquid-bg-trigger-protection: #212b54;
+  --liquid-bg-watchlist-search-hover: #101529;
+
+  /* Premiums */
+  --premiums-bg: #101529;
+  --premiums-bg-sl-dragger-hover: #c9697e;
+  --premiums-bg-sl-expanded: #8f4c5b;
+  --premiums-bg-tp-dragger-hover: #8aceb4;
+  --premiums-bg-tp-expanded: #5d8978;
+
+  /* Tooltip */
+  --tooltip-bg-hover: #212b54;
+
+  /* ═══════════════════════════════════════════════════════
+     Component aliases — backward-compatible names used by
+     existing components (Button, etc.) mapped to primitives
+     ═══════════════════════════════════════════════════════ */
+
+  --buttons-bg-success: var(--primitive-green-400);
+  --buttons-bg-error: var(--primitive-red-300);
+  --buttons-bg-pending: var(--primitive-orange-300);
+  --buttons-bg-secondary-cta: var(--primitive-black-and-white-white);
+  --buttons-bg-tertiary: var(--primitive-neutral-700);
+  --buttons-outline-secondary-cta: var(--primitive-black-and-white-white);
+  --buttons-text-primary: var(--primitive-neutral-1000);
+
+  --outline-success: var(--primitive-green-400);
+  --outline-error: var(--primitive-red-300);
+  --outline-pending: var(--primitive-orange-300);
+  --outline-on-primary: var(--primitive-black-and-white-white);
+
+  --green-1500: var(--primitive-green-1500);
+  --red-100: var(--primitive-red-100);
+  --orange-100: var(--primitive-orange-100);
+  --neutral-200: var(--primitive-neutral-200);
+
+  --bg-main-page-primary: var(--primitive-neutral-1000);
+
+  /* ═══════════════════════════════════════════════════════
+     Typography — all text styles from Figma
+     ═══════════════════════════════════════════════════════ */
+
+  --font-family-base: 'Inter', system-ui, sans-serif;
+
+  /* Heading / H1 — 28px / 36px */
+  --font-heading-h1-bold-size: 28px;
+  --font-heading-h1-bold-line-height: 36px;
+  --font-heading-h1-bold-weight: 700;
+
+  --font-heading-h1-semibold-size: 28px;
+  --font-heading-h1-semibold-line-height: 36px;
+  --font-heading-h1-semibold-weight: 600;
+
+  --font-heading-h1-medium-size: 28px;
+  --font-heading-h1-medium-line-height: 36px;
+  --font-heading-h1-medium-weight: 500;
+
+  --font-heading-h1-regular-size: 28px;
+  --font-heading-h1-regular-line-height: 36px;
+  --font-heading-h1-regular-weight: 400;
+
+  /* Heading / H2 — 24px / 32px */
+  --font-heading-h2-bold-size: 24px;
+  --font-heading-h2-bold-line-height: 32px;
+  --font-heading-h2-bold-weight: 700;
+
+  --font-heading-h2-semibold-size: 24px;
+  --font-heading-h2-semibold-line-height: 32px;
+  --font-heading-h2-semibold-weight: 600;
+
+  --font-heading-h2-medium-size: 24px;
+  --font-heading-h2-medium-line-height: 32px;
+  --font-heading-h2-medium-weight: 500;
+
+  --font-heading-h2-regular-size: 24px;
+  --font-heading-h2-regular-line-height: 32px;
+  --font-heading-h2-regular-weight: 400;
+
+  /* Body / B1 — 18px / 24px */
+  --font-body-b1-bold-size: 18px;
+  --font-body-b1-bold-line-height: 24px;
+  --font-body-b1-bold-weight: 700;
+
+  --font-body-b1-semibold-size: 18px;
+  --font-body-b1-semibold-line-height: 24px;
+  --font-body-b1-semibold-weight: 600;
+
+  --font-body-b1-medium-size: 18px;
+  --font-body-b1-medium-line-height: 24px;
+  --font-body-b1-medium-weight: 500;
+
+  --font-body-b1-regular-size: 18px;
+  --font-body-b1-regular-line-height: 24px;
+  --font-body-b1-regular-weight: 400;
+
+  /* Body / B2 — 16px / 20px */
+  --font-body-b2-bold-size: 16px;
+  --font-body-b2-bold-line-height: 20px;
+  --font-body-b2-bold-weight: 700;
+
+  --font-body-b2-semibold-size: 16px;
+  --font-body-b2-semibold-line-height: 20px;
+  --font-body-b2-semibold-weight: 600;
+
+  --font-body-b2-medium-size: 16px;
+  --font-body-b2-medium-line-height: 20px;
+  --font-body-b2-medium-weight: 500;
+
+  --font-body-b2-regular-size: 16px;
+  --font-body-b2-regular-line-height: 20px;
+  --font-body-b2-regular-weight: 400;
+
+  /* Body / B3 — 14px / 18px */
+  --font-body-b3-bold-size: 14px;
+  --font-body-b3-bold-line-height: 18px;
+  --font-body-b3-bold-weight: 700;
+
+  --font-body-b3-semibold-size: 14px;
+  --font-body-b3-semibold-line-height: 18px;
+  --font-body-b3-semibold-weight: 600;
+
+  --font-body-b3-medium-size: 14px;
+  --font-body-b3-medium-line-height: 18px;
+  --font-body-b3-medium-weight: 500;
+
+  --font-body-b3-regular-size: 14px;
+  --font-body-b3-regular-line-height: 18px;
+  --font-body-b3-regular-weight: 400;
+
+  /* Body / B4 — 12px / 16px */
+  --font-body-b4-bold-size: 12px;
+  --font-body-b4-bold-line-height: 16px;
+  --font-body-b4-bold-weight: 700;
+
+  --font-body-b4-semibold-size: 12px;
+  --font-body-b4-semibold-line-height: 16px;
+  --font-body-b4-semibold-weight: 600;
+
+  --font-body-b4-medium-size: 12px;
+  --font-body-b4-medium-line-height: 16px;
+  --font-body-b4-medium-weight: 500;
+
+  --font-body-b4-regular-size: 12px;
+  --font-body-b4-regular-line-height: 16px;
+  --font-body-b4-regular-weight: 400;
+
+  /* Caption / C1 — 10px / auto */
+  --font-caption-c1-bold-size: 10px;
+  --font-caption-c1-bold-line-height: normal;
+  --font-caption-c1-bold-weight: 700;
+
+  --font-caption-c1-semibold-size: 10px;
+  --font-caption-c1-semibold-line-height: normal;
+  --font-caption-c1-semibold-weight: 600;
+
+  --font-caption-c1-medium-size: 10px;
+  --font-caption-c1-medium-line-height: normal;
+  --font-caption-c1-medium-weight: 500;
+
+  --font-caption-c1-regular-size: 10px;
+  --font-caption-c1-regular-line-height: normal;
+  --font-caption-c1-regular-weight: 400;
+
+  /* Caption / C2 — 9px / auto */
+  --font-caption-c2-bold-size: 9px;
+  --font-caption-c2-bold-line-height: normal;
+  --font-caption-c2-bold-weight: 700;
+
+  --font-caption-c2-semibold-size: 9px;
+  --font-caption-c2-semibold-line-height: normal;
+  --font-caption-c2-semibold-weight: 600;
+
+  --font-caption-c2-medium-size: 9px;
+  --font-caption-c2-medium-line-height: normal;
+  --font-caption-c2-medium-weight: 500;
+
+  --font-caption-c2-regular-size: 9px;
+  --font-caption-c2-regular-line-height: normal;
+  --font-caption-c2-regular-weight: 400;
+
+  /* Caption / C3 — 8px / 10px */
+  --font-caption-c3-bold-size: 8px;
+  --font-caption-c3-bold-line-height: 10px;
+  --font-caption-c3-bold-weight: 700;
+
+  --font-caption-c3-semibold-size: 8px;
+  --font-caption-c3-semibold-line-height: 10px;
+  --font-caption-c3-semibold-weight: 600;
+
+  --font-caption-c3-medium-size: 8px;
+  --font-caption-c3-medium-line-height: 10px;
+  --font-caption-c3-medium-weight: 500;
+
+  --font-caption-c3-regular-size: 8px;
+  --font-caption-c3-regular-line-height: 10px;
+  --font-caption-c3-regular-weight: 400;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Light theme
+   ═══════════════════════════════════════════════════════ */
+[data-theme="light"] {
+
+  /* Background */
+  --background-bg-error-neutral-dim: #f99aa2;
+  --background-bg-hover-context-menu: #48528e;
+  --background-bg-hover-fut-expiry: #343a62;
+  --background-bg-hover-option-chain-buy-sell: #48528e;
+  --background-bg-hover-side-menu: #212b54;
+  --background-bg-hover-thumbnail-action: #48528e;
+  --background-bg-option-chain-strikes: #d3d7f0;
+  --background-bg-positions-content: #d3d7f0;
+  --background-bg-success-dim: #0b9981;
+
+  /* Buttons */
+  --buttons-bg-no: #ffffff;
+  --buttons-bg-scalper-exit: #48528e;
+  --buttons-bg-yes: #ffffff;
+  --buttons-liquid-buy: #2d3e5b;
+  --buttons-liquid-sell: #8f4c5b;
+
+  /* Chart */
+  --chart-bar-volume-a: #0b9981;
+  --chart-bar-volume-b: #f23645;
+
+  /* Color Picker */
+  --color-picker-swatch-black-34: #000000;
+  --color-picker-swatch-green-33: #388e3c;
+  --color-picker-swatch-white-32: #d1d4dc;
+
+  /* Gradients */
+  --gradients-bg-blue-2: #ffffff;
+  --gradients-bg-blue-3: #0d8afd;
+  --gradients-bg-blue-4: #101529;
+  --gradients-bg-heatmap-hover-b: #101529;
+  --gradients-bg-row-loading-a: #d3d7f0;
+  --gradients-bg-row-loading-b: #d3d7f0;
+  --gradients-bg-scalper-header: #676b84;
+  --gradients-bg-thumbnail-a: #0d8afd;
+  --gradients-bg-thumbnail-b: #8a38f5;
+  --gradients-bg-top-pane-rename-diffuse: #48528e;
+  --gradients-bg-top-panel-mask-b: #ffffff;
+
+  /* Indicators and Drawings */
+  --indicators-and-drawings-fill-white: #48528e;
+
+  /* Input Field */
+  --input-field-bg-hover-watchlist-menu: #343a62;
+  --input-field-input-field-hover: #d3d7f0;
+
+  /* Liquid */
+  --liquid-bg-blue: #ededed;
+  --liquid-bg-blue-2: #676b84;
+  --liquid-bg-blue-3: #ffffff;
+  --liquid-bg-exit-all-default: #ff4057;
+  --liquid-bg-exit-all-hover: #ff4057;
+  --liquid-bg-expiry-dropdown: #ffffff;
+  --liquid-bg-green: #5d8978;
+  --liquid-bg-heatmap-button: #676b84;
+  --liquid-bg-market-depth: #c3c7e0;
+  --liquid-bg-menu-icon-hover: #d3d7f0;
+  --liquid-bg-pin-to-chart-hover: #3f445c;
+  --liquid-bg-pink: #c9697e;
+  --liquid-bg-position-form: #ededed;
+  --liquid-bg-red: #cc3958;
+  --liquid-bg-red-2: #8f4c5b;
+  --liquid-bg-scalper-buy-default: #0ec7a3;
+  --liquid-bg-scalper-dropdown-hover: #ffffff;
+  --liquid-bg-scalper-dropdown-reset-hover: #343a62;
+  --liquid-bg-scalper-input: #ffffff;
+  --liquid-bg-scalper-input-right-click: #ffffff;
+  --liquid-bg-scalper-market-depth: #ededed;
+  --liquid-bg-settings-hover: #ffffff;
+  --liquid-bg-shortcut-hover: #d3d7f0;
+  --liquid-bg-teal: #0ec7a3;
+  --liquid-bg-teal-2: #5d8978;
+  --liquid-bg-template-favorite-hover: #212b54;
+  --liquid-bg-trigger-protection: #d3d7f0;
+  --liquid-bg-watchlist-search-hover: #d3d7f0;
+
+  /* Premiums */
+  --premiums-bg: #ffffff;
+  --premiums-bg-sl-dragger-hover: #c9697e;
+  --premiums-bg-sl-expanded: #cc3958;
+  --premiums-bg-tp-dragger-hover: #8aceb4;
+  --premiums-bg-tp-expanded: #018d57;
+
+  /* Tooltip */
+  --tooltip-bg-hover: #343a62;
+}
+
+/* ═══════════════════════════════════════════════════════
+   Deep Black theme
+   ═══════════════════════════════════════════════════════ */
+[data-theme="deep-black"] {
+
+  /* Background */
+  --background-bg-error-neutral-dim: #f99aa2;
+  --background-bg-hover-context-menu: #585858;
+  --background-bg-hover-fut-expiry: #343a62;
+  --background-bg-hover-scale: #48528e;
+  --background-bg-hover-thumbnail-action: #585858;
+  --background-bg-success-dim: #0b9981;
+
+  /* Buttons */
+  --buttons-bg-no: #ffffff;
+  --buttons-bg-scalper-exit: #48528e;
+  --buttons-bg-yes: #ffffff;
+  --buttons-liquid-buy: #2d3e5b;
+  --buttons-liquid-sell: #8f4c5b;
+
+  /* Chart */
+  --chart-bar-volume-a: #0b9981;
+  --chart-bar-volume-b: #f23645;
+
+  /* Color Picker */
+  --color-picker-swatch-black-34: #000000;
+  --color-picker-swatch-green-33: #388e3c;
+  --color-picker-swatch-white-32: #d1d4dc;
+
+  /* Gradients */
+  --gradients-bg-blue-2: #ffffff;
+  --gradients-bg-blue-3: #0d8afd;
+  --gradients-bg-blue-4: #101529;
+  --gradients-bg-blue-5: #101529;
+  --gradients-bg-heatmap-hover-b: #191919;
+  --gradients-bg-row-loading-a: #888888;
+  --gradients-bg-row-loading-b: #0a0a0a;
+  --gradients-bg-thumbnail-a: #0a0a0a;
+  --gradients-bg-thumbnail-b: #8a38f5;
+  --gradients-bg-top-pane-rename-diffuse: #585858;
+  --gradients-bg-top-panel-mask-b: #0a0a0a;
+
+  /* Indicators and Drawings */
+  --indicators-and-drawings-fill-white: #585858;
+
+  /* Input Field */
+  --input-field-bg-hover-watchlist-menu: #888888;
+  --input-field-input-field-hover: #888888;
+
+  /* Liquid */
+  --liquid-bg-blue: #ededed;
+  --liquid-bg-blue-2: #676b84;
+  --liquid-bg-blue-3: #0a0a0a;
+  --liquid-bg-exit-all-default: #ff4057;
+  --liquid-bg-exit-all-hover: #ff4057;
+  --liquid-bg-expiry-dropdown: #0a0a0a;
+  --liquid-bg-green: #5d8978;
+  --liquid-bg-heatmap-button: #676b84;
+  --liquid-bg-market-depth: #313131;
+  --liquid-bg-menu-icon-hover: #d3d7f0;
+  --liquid-bg-pin-to-chart-hover: #3f445c;
+  --liquid-bg-pink: #c9697e;
+  --liquid-bg-position-form: #1e1e1e;
+  --liquid-bg-red: #cc3958;
+  --liquid-bg-red-2: #8f4c5b;
+  --liquid-bg-scalper-buy-default: #0ec7a3;
+  --liquid-bg-scalper-dropdown-hover: #ffffff;
+  --liquid-bg-scalper-dropdown-reset-hover: #313131;
+  --liquid-bg-scalper-input: #0a0a0a;
+  --liquid-bg-scalper-input-right-click: #0a0a0a;
+  --liquid-bg-scalper-market-depth: #d3d7f0;
+  --liquid-bg-settings-hover: #313131;
+  --liquid-bg-shortcut-hover: #b1b1b1;
+  --liquid-bg-teal: #0ec7a3;
+  --liquid-bg-teal-2: #5d8978;
+  --liquid-bg-template-favorite-hover: #212b54;
+  --liquid-bg-trigger-protection: #313131;
+  --liquid-bg-watchlist-search-hover: #585858;
+
+  /* Premiums */
+  --premiums-bg-sl-dragger-hover: #c9697e;
+  --premiums-bg-sl-expanded: #cc3958;
+  --premiums-bg-tp-dragger-hover: #0f6e66;
+  --premiums-bg-tp-expanded: #018d57;
+
+  /* Tooltip */
+  --tooltip-bg-hover: #343a62;
+}

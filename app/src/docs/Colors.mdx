@@ -1,0 +1,341 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Foundations/Colors" />
+
+export function ColorSwatch({ name, token, value, border }) {
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: 120 }}>
+      <div
+        style={{
+          width: 72,
+          height: 72,
+          borderRadius: 10,
+          backgroundColor: value,
+          border: border ? '1px solid #555' : 'none',
+          marginBottom: 6,
+        }}
+      />
+      <strong style={{ fontSize: 11, textAlign: 'center', lineHeight: 1.2 }}>{name}</strong>
+      <code style={{ fontSize: 10, color: '#888', wordBreak: 'break-all', textAlign: 'center' }}>{token}</code>
+      <span style={{ fontSize: 11, color: '#666', fontFamily: 'monospace' }}>{value}</span>
+    </div>
+  );
+}
+
+# Colors
+
+Design tokens from the [Punch Desktop Design System](https://www.figma.com/design/y1hJPuNFlUlkgYIYfVL2k5/Punch-Desktop-Design-System) Figma Variables.
+All values live in `src/styles/tokens.css` as CSS custom properties.
+
+---
+
+## Primitives
+
+Raw color palette — these are the building blocks referenced by semantic tokens.
+
+### Gray
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="200" token="--primitive-200" value="#b1b1b1"  />
+  <ColorSwatch name="500" token="--primitive-500" value="#6e6e6e"  />
+  <ColorSwatch name="100" token="--primitive-100" value="#d8d8d8" border />
+  <ColorSwatch name="400" token="--primitive-400" value="#888888"  />
+  <ColorSwatch name="600" token="--primitive-600" value="#585858"  />
+  <ColorSwatch name="700" token="--primitive-700" value="#313131"  />
+  <ColorSwatch name="800" token="--primitive-800" value="#1e1e1e"  />
+  <ColorSwatch name="850" token="--primitive-850" value="#191919"  />
+  <ColorSwatch name="900" token="--primitive-900" value="#0a0a0a"  />
+  <ColorSwatch name="300" token="--primitive-300" value="#909090"  />
+  <ColorSwatch name="50" token="--primitive-50" value="#ededed" border />
+</div>
+
+### Neutral
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="1000" token="--primitive-neutral-1000" value="#101529"  />
+  <ColorSwatch name="900" token="--primitive-neutral-900" value="#181d34"  />
+  <ColorSwatch name="800" token="--primitive-neutral-800" value="#1e223b"  />
+  <ColorSwatch name="700" token="--primitive-neutral-700" value="#3f445c"  />
+  <ColorSwatch name="600" token="--primitive-neutral-600" value="#676b84"  />
+  <ColorSwatch name="500" token="--primitive-neutral-500" value="#777c99"  />
+  <ColorSwatch name="400" token="--primitive-neutral-400" value="#b0b4cd"  />
+  <ColorSwatch name="300" token="--primitive-neutral-300" value="#c3c7e0" border />
+  <ColorSwatch name="200" token="--primitive-neutral-200" value="#d3d7f0" border />
+  <ColorSwatch name="50" token="--primitive-neutral-50" value="#f6f7fc" border />
+</div>
+
+### Blue
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="1100" token="--primitive-blue-1100" value="#2d3765"  />
+  <ColorSwatch name="1000" token="--primitive-blue-1000" value="#2d3e5b"  />
+  <ColorSwatch name="900" token="--primitive-blue-900" value="#bbd9fb" border />
+  <ColorSwatch name="800" token="--primitive-blue-800" value="#1c2138"  />
+  <ColorSwatch name="700" token="--primitive-blue-700" value="#212b54"  />
+  <ColorSwatch name="600" token="--primitive-blue-600" value="#343a62"  />
+  <ColorSwatch name="500" token="--primitive-blue-500" value="#48528e"  />
+  <ColorSwatch name="400" token="--primitive-blue-400" value="#0d8afd"  />
+  <ColorSwatch name="300" token="--primitive-blue-300" value="#00bcd4"  />
+  <ColorSwatch name="200" token="--primitive-blue-200" value="#22d7ff"  />
+  <ColorSwatch name="100" token="--primitive-blue-100" value="#80deea"  />
+</div>
+
+### Black and White
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="white" token="--primitive-black-and-white-white" value="#ffffff" border />
+  <ColorSwatch name="black" token="--primitive-black-and-white-black" value="#10121b"  />
+</div>
+
+### Green
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="3100" token="--primitive-green-3100" value="#cae5e1" border />
+  <ColorSwatch name="3000" token="--primitive-green-3000" value="#388e3c"  />
+  <ColorSwatch name="2900" token="--primitive-green-2900" value="#a5d6a7"  />
+  <ColorSwatch name="2800" token="--primitive-green-2800" value="#48b196"  />
+  <ColorSwatch name="2700" token="--primitive-green-2700" value="#71b923"  />
+  <ColorSwatch name="2600" token="--primitive-green-2600" value="#578e1b"  />
+  <ColorSwatch name="2500" token="--primitive-green-2500" value="#3c6313"  />
+  <ColorSwatch name="2400" token="--primitive-green-2400" value="#2b470d"  />
+  <ColorSwatch name="2300" token="--primitive-green-2300" value="#1d3a1d"  />
+  <ColorSwatch name="2200" token="--primitive-green-2200" value="#00ccaa"  />
+  <ColorSwatch name="2100" token="--primitive-green-2100" value="#05ffce"  />
+  <ColorSwatch name="2000" token="--primitive-green-2000" value="#05473b"  />
+  <ColorSwatch name="1900" token="--primitive-green-1900" value="#065747"  />
+  <ColorSwatch name="1800" token="--primitive-green-1800" value="#076654"  />
+  <ColorSwatch name="1700" token="--primitive-green-1700" value="#098068"  />
+  <ColorSwatch name="1600" token="--primitive-green-1600" value="#0b9e81"  />
+  <ColorSwatch name="1500" token="--primitive-green-1500" value="#8aceb4"  />
+  <ColorSwatch name="1400" token="--primitive-green-1400" value="#5d8978"  />
+  <ColorSwatch name="1300" token="--primitive-green-1300" value="#0f6e66"  />
+  <ColorSwatch name="1200" token="--primitive-green-1200" value="#0b9981"  />
+  <ColorSwatch name="1100" token="--primitive-green-1100" value="#018d57"  />
+  <ColorSwatch name="1000" token="--primitive-green-1000" value="#102d36"  />
+  <ColorSwatch name="900" token="--primitive-green-900" value="#20546b"  />
+  <ColorSwatch name="800" token="--primitive-green-800" value="#0f6e66"  />
+  <ColorSwatch name="700" token="--primitive-green-700" value="#089981"  />
+  <ColorSwatch name="600" token="--primitive-green-600" value="#4caf50"  />
+  <ColorSwatch name="500" token="--primitive-green-500" value="#34b71f"  />
+  <ColorSwatch name="400" token="--primitive-green-400" value="#02ff9e"  />
+  <ColorSwatch name="300" token="--primitive-green-300" value="#0ec7a3"  />
+  <ColorSwatch name="200" token="--primitive-green-200" value="#85ccc0"  />
+  <ColorSwatch name="100" token="--primitive-green-100" value="#ace5dc" border />
+</div>
+
+### Red
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="2800" token="--primitive-red-2800" value="#f9dbde" border />
+  <ColorSwatch name="2700" token="--primitive-red-2700" value="#cf4246"  />
+  <ColorSwatch name="2600" token="--primitive-red-2600" value="#ff476e"  />
+  <ColorSwatch name="2500" token="--primitive-red-2500" value="#f3392f"  />
+  <ColorSwatch name="2400" token="--primitive-red-2400" value="#ec251b"  />
+  <ColorSwatch name="2300" token="--primitive-red-2300" value="#f3392f"  />
+  <ColorSwatch name="2200" token="--primitive-red-2200" value="#a4150e"  />
+  <ColorSwatch name="2100" token="--primitive-red-2100" value="#560b07"  />
+  <ColorSwatch name="2000" token="--primitive-red-2000" value="#ff0505"  />
+  <ColorSwatch name="1900" token="--primitive-red-1900" value="#cc3958"  />
+  <ColorSwatch name="1800" token="--primitive-red-1800" value="#422531"  />
+  <ColorSwatch name="1700" token="--primitive-red-1700" value="#571825"  />
+  <ColorSwatch name="1600" token="--primitive-red-1600" value="#6e1f2f"  />
+  <ColorSwatch name="1500" token="--primitive-red-1500" value="#9e2c44"  />
+  <ColorSwatch name="1400" token="--primitive-red-1400" value="#cc3958"  />
+  <ColorSwatch name="1300" token="--primitive-red-1300" value="#c9697e"  />
+  <ColorSwatch name="1200" token="--primitive-red-1200" value="#6e2741"  />
+  <ColorSwatch name="1100" token="--primitive-red-1100" value="#8f4c5b"  />
+  <ColorSwatch name="1000" token="--primitive-red-1000" value="#f23645"  />
+  <ColorSwatch name="900" token="--primitive-red-900" value="#e91e63"  />
+  <ColorSwatch name="800" token="--primitive-red-800" value="#f48fb1"  />
+  <ColorSwatch name="700" token="--primitive-red-700" value="#27192f"  />
+  <ColorSwatch name="600" token="--primitive-red-600" value="#6e2741"  />
+  <ColorSwatch name="500" token="--primitive-red-500" value="#cc3958"  />
+  <ColorSwatch name="400" token="--primitive-red-400" value="#f23645"  />
+  <ColorSwatch name="300" token="--primitive-red-300" value="#ff4057"  />
+  <ColorSwatch name="200" token="--primitive-red-200" value="#f3392f"  />
+  <ColorSwatch name="100" token="--primitive-red-100" value="#f99aa2"  />
+</div>
+
+### Yellow
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="500" token="--primitive-yellow-500" value="#9e7e4f"  />
+  <ColorSwatch name="400" token="--primitive-yellow-400" value="#5d4f3b"  />
+  <ColorSwatch name="300" token="--primitive-yellow-300" value="#ffc551" border />
+  <ColorSwatch name="200" token="--primitive-yellow-200" value="#ffeb3b" border />
+  <ColorSwatch name="100" token="--primitive-yellow-100" value="#fff9c4" border />
+</div>
+
+### Orange
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="300" token="--primitive-orange-300" value="#ff7a44"  />
+  <ColorSwatch name="200" token="--primitive-orange-200" value="#ff9800"  />
+  <ColorSwatch name="100" token="--primitive-orange-100" value="#ffcc80" border />
+</div>
+
+### Purple
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="700" token="--primitive-purple-700" value="#de49d4"  />
+  <ColorSwatch name="600" token="--primitive-purple-600" value="#373255"  />
+  <ColorSwatch name="500" token="--primitive-purple-500" value="#673ab7"  />
+  <ColorSwatch name="400" token="--primitive-purple-400" value="#7c17fd"  />
+  <ColorSwatch name="300" token="--primitive-purple-300" value="#9c27b0"  />
+  <ColorSwatch name="200" token="--primitive-purple-200" value="#b39ddb"  />
+  <ColorSwatch name="100" token="--primitive-purple-100" value="#e1bee7" border />
+</div>
+
+---
+
+## Semantic Tokens (Dark Theme Default)
+
+Theme-aware tokens that change across Dark, Light, and Deep Black modes.
+The values shown are the **Dark** (default) mode values.
+
+### Premiums
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg" token="--premiums-bg" value="#101529"  />
+  <ColorSwatch name="bg-sl-expanded" token="--premiums-bg-sl-expanded" value="#8f4c5b"  />
+  <ColorSwatch name="bg-tp-expanded" token="--premiums-bg-tp-expanded" value="#5d8978"  />
+  <ColorSwatch name="bg-tp-dragger-hover" token="--premiums-bg-tp-dragger-hover" value="#8aceb4"  />
+  <ColorSwatch name="bg-sl-dragger-hover" token="--premiums-bg-sl-dragger-hover" value="#c9697e"  />
+</div>
+
+### Background
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg-hover-fut-expiry" token="--background-bg-hover-fut-expiry" value="#212b54"  />
+  <ColorSwatch name="bg-hover-context-menu" token="--background-bg-hover-context-menu" value="#48528e"  />
+  <ColorSwatch name="bg-hover-position-maximise" token="--background-bg-hover-position-maximise" value="#212b54"  />
+  <ColorSwatch name="bg-hover-thumbnail-action" token="--background-bg-hover-thumbnail-action" value="#48528e"  />
+  <ColorSwatch name="bg-hover-side-menu" token="--background-bg-hover-side-menu" value="#212b54"  />
+  <ColorSwatch name="bg-search-bar" token="--background-bg-search-bar" value="#48528e"  />
+  <ColorSwatch name="bg-error-neutral-dim" token="--background-bg-error-neutral-dim" value="#8f4c5b"  />
+  <ColorSwatch name="bg-success-dim" token="--background-bg-success-dim" value="#5d8978"  />
+</div>
+
+### Icons
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="icon-error" token="--icons-icon-error" value="#ff4057"  />
+</div>
+
+### Chart
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bar-volume-a" token="--chart-bar-volume-a" value="#0ec7a3"  />
+  <ColorSwatch name="bar-volume-b" token="--chart-bar-volume-b" value="#cc3958"  />
+</div>
+
+### Liquid
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg-expiry-dropdown" token="--liquid-bg-expiry-dropdown" value="#101529"  />
+  <ColorSwatch name="bg-exit-all-hover" token="--liquid-bg-exit-all-hover" value="#ff4057"  />
+  <ColorSwatch name="bg-scalper-input" token="--liquid-bg-scalper-input" value="#101529"  />
+  <ColorSwatch name="bg-settings-hover" token="--liquid-bg-settings-hover" value="#212b54"  />
+  <ColorSwatch name="bg-shortcut-hover" token="--liquid-bg-shortcut-hover" value="#48528e"  />
+  <ColorSwatch name="bg-exit-all-default" token="--liquid-bg-exit-all-default" value="#ff4057"  />
+  <ColorSwatch name="bg-watchlist-search-hover" token="--liquid-bg-watchlist-search-hover" value="#101529"  />
+  <ColorSwatch name="bg-position-form" token="--liquid-bg-position-form" value="#48528e"  />
+  <ColorSwatch name="bg-blue" token="--liquid-bg-blue" value="#212b54"  />
+  <ColorSwatch name="bg-trigger-protection" token="--liquid-bg-trigger-protection" value="#212b54"  />
+  <ColorSwatch name="bg-scalper-buy-default" token="--liquid-bg-scalper-buy-default" value="#0ec7a3"  />
+  <ColorSwatch name="bg-pin-to-chart-hover" token="--liquid-bg-pin-to-chart-hover" value="#3f445c"  />
+  <ColorSwatch name="bg-heatmap-button" token="--liquid-bg-heatmap-button" value="#676b84"  />
+  <ColorSwatch name="bg-red" token="--liquid-bg-red" value="#cc3958"  />
+  <ColorSwatch name="bg-teal" token="--liquid-bg-teal" value="#0ec7a3"  />
+  <ColorSwatch name="bg-green" token="--liquid-bg-green" value="#5d8978"  />
+  <ColorSwatch name="bg-red-2" token="--liquid-bg-red-2" value="#8f4c5b"  />
+  <ColorSwatch name="bg-blue-2" token="--liquid-bg-blue-2" value="#676b84"  />
+  <ColorSwatch name="bg-pink" token="--liquid-bg-pink" value="#6e2741"  />
+  <ColorSwatch name="bg-teal-2" token="--liquid-bg-teal-2" value="#0f6e66"  />
+  <ColorSwatch name="bg-dock-icon" token="--liquid-bg-dock-icon" value="#48528e"  />
+  <ColorSwatch name="bg-template-favorite-hover" token="--liquid-bg-template-favorite-hover" value="#212b54"  />
+  <ColorSwatch name="bg-template-delete-hover" token="--liquid-bg-template-delete-hover" value="#d3d7f0" border />
+  <ColorSwatch name="bg-market-depth" token="--liquid-bg-market-depth" value="#212b54"  />
+  <ColorSwatch name="bg-menu-icon-hover" token="--liquid-bg-menu-icon-hover" value="#d3d7f0" border />
+  <ColorSwatch name="bg-blue-3" token="--liquid-bg-blue-3" value="#101529"  />
+  <ColorSwatch name="bg-scalper-dropdown-hover" token="--liquid-bg-scalper-dropdown-hover" value="#212b54"  />
+  <ColorSwatch name="bg-scalper-input-right-click" token="--liquid-bg-scalper-input-right-click" value="#101529"  />
+  <ColorSwatch name="bg-scalper-market-depth" token="--liquid-bg-scalper-market-depth" value="#48528e"  />
+  <ColorSwatch name="bg-scalper-dropdown-reset-hover" token="--liquid-bg-scalper-dropdown-reset-hover" value="#48528e"  />
+</div>
+
+### Input Field
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="input-field-hover" token="--input-field-input-field-hover" value="#d3d7f0" border />
+  <ColorSwatch name="bg-hover-watchlist-menu" token="--input-field-bg-hover-watchlist-menu" value="#343a62"  />
+</div>
+
+### Color Picker
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="swatch-white-32" token="--color-picker-swatch-white-32" value="#d1d4dc" border />
+  <ColorSwatch name="swatch-green-33" token="--color-picker-swatch-green-33" value="#388e3c"  />
+  <ColorSwatch name="swatch-black-34" token="--color-picker-swatch-black-34" value="#000000"  />
+</div>
+
+### Indicators and Drawings
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="fill-white" token="--indicators-and-drawings-fill-white" value="#ffffff" border />
+</div>
+
+### Tooltip
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg-hover" token="--tooltip-bg-hover" value="#212b54"  />
+</div>
+
+### Buttons
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg-no" token="--buttons-bg-no" value="#101529"  />
+  <ColorSwatch name="bg-yes" token="--buttons-bg-yes" value="#101529"  />
+  <ColorSwatch name="liquid-sell" token="--buttons-liquid-sell" value="#8f4c5b"  />
+  <ColorSwatch name="liquid-buy" token="--buttons-liquid-buy" value="#2d3e5b"  />
+</div>
+
+### Gradients
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="bg-thumbnail-a" token="--gradients-bg-thumbnail-a" value="#0d8afd"  />
+  <ColorSwatch name="bg-thumbnail-b" token="--gradients-bg-thumbnail-b" value="#8a38f5"  />
+  <ColorSwatch name="bg-top-panel-mask-b" token="--gradients-bg-top-panel-mask-b" value="#101529"  />
+  <ColorSwatch name="bg-top-pane-rename-diffuse" token="--gradients-bg-top-pane-rename-diffuse" value="#343a62"  />
+  <ColorSwatch name="bg-scalper-header-diffuse" token="--gradients-bg-scalper-header-diffuse" value="#343a62"  />
+  <ColorSwatch name="bg-scalper-header" token="--gradients-bg-scalper-header" value="#676b84"  />
+  <ColorSwatch name="bg-blue-2" token="--gradients-bg-blue-2" value="#212b54"  />
+  <ColorSwatch name="bg-row-loading-b" token="--gradients-bg-row-loading-b" value="#181d34"  />
+  <ColorSwatch name="bg-heatmap-hover-b" token="--gradients-bg-heatmap-hover-b" value="#101529"  />
+  <ColorSwatch name="bg-blue-4" token="--gradients-bg-blue-4" value="#101529"  />
+</div>
+
+---
+
+## Component Aliases
+
+Backward-compatible names used by existing components (e.g., Button).
+These map to primitive tokens above.
+
+<div style={{ display: "flex", gap: 16, flexWrap: "wrap", marginBottom: 24 }}>
+  <ColorSwatch name="Success BG" token="--buttons-bg-success" value="#02ff9e"  />
+  <ColorSwatch name="Error BG" token="--buttons-bg-error" value="#ff4057"  />
+  <ColorSwatch name="Pending BG" token="--buttons-bg-pending" value="#ff7a44"  />
+  <ColorSwatch name="Secondary CTA" token="--buttons-bg-secondary-cta" value="#ffffff" border />
+  <ColorSwatch name="Tertiary BG" token="--buttons-bg-tertiary" value="#3f445c"  />
+  <ColorSwatch name="Text Primary" token="--buttons-text-primary" value="#101529"  />
+  <ColorSwatch name="Outline Success" token="--outline-success" value="#02ff9e"  />
+  <ColorSwatch name="Outline Error" token="--outline-error" value="#ff4057"  />
+  <ColorSwatch name="Outline Pending" token="--outline-pending" value="#ff7a44"  />
+  <ColorSwatch name="Outline On Primary" token="--outline-on-primary" value="#ffffff" border />
+  <ColorSwatch name="Hover Green" token="--green-1500" value="#8aceb4"  />
+  <ColorSwatch name="Hover Red" token="--red-100" value="#f99aa2"  />
+  <ColorSwatch name="Hover Orange" token="--orange-100" value="#ffcc80" border />
+  <ColorSwatch name="Hover Neutral" token="--neutral-200" value="#d3d7f0" border />
+  <ColorSwatch name="Main Page BG" token="--bg-main-page-primary" value="#101529"  />
+</div>

@@ -1,0 +1,1832 @@
+[
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "200",
+    "hex": "#B1B1B1"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "500",
+    "hex": "#6E6E6E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "100",
+    "hex": "#D8D8D8"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "400",
+    "hex": "#888888"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "600",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "700",
+    "hex": "#313131"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "800",
+    "hex": "#1E1E1E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "850",
+    "hex": "#191919"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "900",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "300",
+    "hex": "#909090"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/1000",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/900",
+    "hex": "#181D34"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/800",
+    "hex": "#1E223B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/700",
+    "hex": "#3F445C"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/600",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/500",
+    "hex": "#777C99"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/400",
+    "hex": "#B0B4CD"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/300",
+    "hex": "#C3C7E0"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/200",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "50",
+    "hex": "#EDEDED"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Neutral/50",
+    "hex": "#F6F7FC"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/1100",
+    "hex": "#2D3765"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Black and White/white",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/1000",
+    "hex": "#2D3E5B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/3100",
+    "hex": "#CAE5E1"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Black and White/black",
+    "hex": "#10121B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/900",
+    "hex": "#BBD9FB"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/3000",
+    "hex": "#388E3C"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/800",
+    "hex": "#1C2138"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2900",
+    "hex": "#A5D6A7"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/700",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2800",
+    "hex": "#48B196"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/600",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2800",
+    "hex": "#F9DBDE"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2700",
+    "hex": "#CF4246"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2600",
+    "hex": "#FF476E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2500",
+    "hex": "#F3392F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2400",
+    "hex": "#EC251B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2300",
+    "hex": "#F3392F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2200",
+    "hex": "#A4150E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2100",
+    "hex": "#560B07"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/2000",
+    "hex": "#FF0505"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1900",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1800",
+    "hex": "#422531"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1700",
+    "hex": "#571825"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1600",
+    "hex": "#6E1F2F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1500",
+    "hex": "#9E2C44"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1400",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2700",
+    "hex": "#71B923"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1300",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/500",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1200",
+    "hex": "#6E2741"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/400",
+    "hex": "#0D8AFD"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2600",
+    "hex": "#578E1B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2500",
+    "hex": "#3C6313"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1100",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/300",
+    "hex": "#00BCD4"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/200",
+    "hex": "#22D7FF"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2400",
+    "hex": "#2B470D"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/1000",
+    "hex": "#F23645"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/900",
+    "hex": "#E91E63"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Blue/100",
+    "hex": "#80DEEA"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2300",
+    "hex": "#1D3A1D"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/800",
+    "hex": "#F48FB1"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2200",
+    "hex": "#00CCAA"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/700",
+    "hex": "#27192F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/600",
+    "hex": "#6E2741"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2100",
+    "hex": "#05FFCE"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/2000",
+    "hex": "#05473B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/500",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1900",
+    "hex": "#065747"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/400",
+    "hex": "#F23645"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1800",
+    "hex": "#076654"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1700",
+    "hex": "#098068"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1600",
+    "hex": "#0B9E81"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1500",
+    "hex": "#8ACEB4"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1400",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/300",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1300",
+    "hex": "#0F6E66"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/200",
+    "hex": "#F3392F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1200",
+    "hex": "#0B9981"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Red/100",
+    "hex": "#F99AA2"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1100",
+    "hex": "#018D57"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/1000",
+    "hex": "#102D36"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/900",
+    "hex": "#20546B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/800",
+    "hex": "#0F6E66"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/700",
+    "hex": "#089981"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/600",
+    "hex": "#4CAF50"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/500",
+    "hex": "#34B71F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/400",
+    "hex": "#02FF9E"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/300",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/200",
+    "hex": "#85CCC0"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Green/100",
+    "hex": "#ACE5DC"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Yellow/500",
+    "hex": "#9E7E4F"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Yellow/400",
+    "hex": "#5D4F3B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Yellow/300",
+    "hex": "#FFC551"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Yellow/200",
+    "hex": "#FFEB3B"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Yellow/100",
+    "hex": "#FFF9C4"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Orange/300",
+    "hex": "#FF7A44"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Orange/200",
+    "hex": "#FF9800"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Orange/100",
+    "hex": "#FFCC80"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/700",
+    "hex": "#DE49D4"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/600",
+    "hex": "#373255"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/500",
+    "hex": "#673AB7"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/400",
+    "hex": "#7C17FD"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/300",
+    "hex": "#9C27B0"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/200",
+    "hex": "#B39DDB"
+  },
+  {
+    "collection": "Primitives",
+    "mode": "Mode 1",
+    "name": "Purple/100",
+    "hex": "#E1BEE7"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Premiums/bg",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Premiums/bg-sl-expanded",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Premiums/bg-tp-expanded",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Premiums/bg-tp-dragger-hover",
+    "hex": "#8ACEB4"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Premiums/bg-sl-dragger-hover",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-hover-fut-expiry",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-hover-context-menu",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-hover-position-maximise",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-hover-thumbnail-action",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-hover-side-menu",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-search-bar",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-error-neutral-dim",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Background/bg-success-dim",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Icons/icon-error",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Chart/bar-volume-a",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Chart/bar-volume-b",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-expiry-dropdown",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-exit-all-hover",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-input",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-settings-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-shortcut-hover",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-exit-all-default",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-watchlist-search-hover",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-position-form",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-blue",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-trigger-protection",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-buy-default",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-pin-to-chart-hover",
+    "hex": "#3F445C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-heatmap-button",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-red",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-teal",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-green",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-red-2",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-blue-2",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-pink",
+    "hex": "#6E2741"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-teal-2",
+    "hex": "#0F6E66"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-dock-icon",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-template-favorite-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-template-delete-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-market-depth",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-menu-icon-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-blue-3",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-dropdown-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-input-right-click",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-market-depth",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Liquid/bg-scalper-dropdown-reset-hover",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Input Field/input-field-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Input Field/bg-hover-watchlist-menu",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Color Picker/swatch-white-32",
+    "hex": "#D1D4DC"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Color Picker/swatch-green-33",
+    "hex": "#388E3C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Color Picker/swatch-black-34",
+    "hex": "#000000"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Indicators and Drawings/fill-white",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Tooltip/bg-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Buttons/bg-no",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Buttons/bg-yes",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Buttons/liquid-sell",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Buttons/liquid-buy",
+    "hex": "#2D3E5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-thumbnail-a",
+    "hex": "#0D8AFD"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-thumbnail-b",
+    "hex": "#8A38F5"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-top-panel-mask-b",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-top-pane-rename-diffuse",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-scalper-header-diffuse",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-scalper-header",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-blue-2",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-row-loading-b",
+    "hex": "#181D34"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-heatmap-hover-b",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Dark",
+    "name": "Gradients/bg-blue-4",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Premiums/bg",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Premiums/bg-sl-expanded",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Premiums/bg-tp-expanded",
+    "hex": "#018D57"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Premiums/bg-tp-dragger-hover",
+    "hex": "#8ACEB4"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Premiums/bg-sl-dragger-hover",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-option-chain-strikes",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-positions-content",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-hover-fut-expiry",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-hover-context-menu",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-hover-thumbnail-action",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-hover-side-menu",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-hover-option-chain-buy-sell",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-error-neutral-dim",
+    "hex": "#F99AA2"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Background/bg-success-dim",
+    "hex": "#0B9981"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Chart/bar-volume-a",
+    "hex": "#0B9981"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Chart/bar-volume-b",
+    "hex": "#F23645"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-expiry-dropdown",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-exit-all-hover",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-input",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-settings-hover",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-shortcut-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-exit-all-default",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-watchlist-search-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-position-form",
+    "hex": "#EDEDED"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-blue",
+    "hex": "#EDEDED"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-trigger-protection",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-buy-default",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-pin-to-chart-hover",
+    "hex": "#3F445C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-heatmap-button",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-red",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-teal",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-green",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-red-2",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-blue-2",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-pink",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-teal-2",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-template-favorite-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-market-depth",
+    "hex": "#C3C7E0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-menu-icon-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-blue-3",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-dropdown-hover",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-input-right-click",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-market-depth",
+    "hex": "#EDEDED"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Liquid/bg-scalper-dropdown-reset-hover",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Input Field/input-field-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Input Field/bg-hover-watchlist-menu",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Color Picker/swatch-white-32",
+    "hex": "#D1D4DC"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Color Picker/swatch-green-33",
+    "hex": "#388E3C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Color Picker/swatch-black-34",
+    "hex": "#000000"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Indicators and Drawings/fill-white",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Tooltip/bg-hover",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Buttons/bg-no",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Buttons/bg-yes",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Buttons/bg-scalper-exit",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Buttons/liquid-sell",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Buttons/liquid-buy",
+    "hex": "#2D3E5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-thumbnail-a",
+    "hex": "#0D8AFD"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-thumbnail-b",
+    "hex": "#8A38F5"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-top-panel-mask-b",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-top-pane-rename-diffuse",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-scalper-header",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-blue-2",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-row-loading-a",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-row-loading-b",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-heatmap-hover-b",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-blue-3",
+    "hex": "#0D8AFD"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Light",
+    "name": "Gradients/bg-blue-4",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Premiums/bg-sl-expanded",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Premiums/bg-tp-expanded",
+    "hex": "#018D57"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Premiums/bg-tp-dragger-hover",
+    "hex": "#0F6E66"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Premiums/bg-sl-dragger-hover",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-hover-fut-expiry",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-hover-context-menu",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-hover-thumbnail-action",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-hover-scale",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-error-neutral-dim",
+    "hex": "#F99AA2"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Background/bg-success-dim",
+    "hex": "#0B9981"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Chart/bar-volume-a",
+    "hex": "#0B9981"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Chart/bar-volume-b",
+    "hex": "#F23645"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-expiry-dropdown",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-exit-all-hover",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-input",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-settings-hover",
+    "hex": "#313131"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-shortcut-hover",
+    "hex": "#B1B1B1"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-exit-all-default",
+    "hex": "#FF4057"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-watchlist-search-hover",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-position-form",
+    "hex": "#1E1E1E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-blue",
+    "hex": "#EDEDED"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-trigger-protection",
+    "hex": "#313131"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-buy-default",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-pin-to-chart-hover",
+    "hex": "#3F445C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-heatmap-button",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-red",
+    "hex": "#CC3958"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-teal",
+    "hex": "#0EC7A3"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-green",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-red-2",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-blue-2",
+    "hex": "#676B84"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-pink",
+    "hex": "#C9697E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-teal-2",
+    "hex": "#5D8978"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-template-favorite-hover",
+    "hex": "#212B54"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-market-depth",
+    "hex": "#313131"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-menu-icon-hover",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-blue-3",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-dropdown-hover",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-input-right-click",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-market-depth",
+    "hex": "#D3D7F0"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Liquid/bg-scalper-dropdown-reset-hover",
+    "hex": "#313131"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Input Field/input-field-hover",
+    "hex": "#888888"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Input Field/bg-hover-watchlist-menu",
+    "hex": "#888888"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Color Picker/swatch-white-32",
+    "hex": "#D1D4DC"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Color Picker/swatch-green-33",
+    "hex": "#388E3C"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Color Picker/swatch-black-34",
+    "hex": "#000000"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Indicators and Drawings/fill-white",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Tooltip/bg-hover",
+    "hex": "#343A62"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Buttons/bg-no",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Buttons/bg-yes",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Buttons/bg-scalper-exit",
+    "hex": "#48528E"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Buttons/liquid-sell",
+    "hex": "#8F4C5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Buttons/liquid-buy",
+    "hex": "#2D3E5B"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-thumbnail-a",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-thumbnail-b",
+    "hex": "#8A38F5"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-top-panel-mask-b",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-top-pane-rename-diffuse",
+    "hex": "#585858"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-blue-2",
+    "hex": "#FFFFFF"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-row-loading-a",
+    "hex": "#888888"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-row-loading-b",
+    "hex": "#0A0A0A"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-heatmap-hover-b",
+    "hex": "#191919"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-blue-3",
+    "hex": "#0D8AFD"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-blue-4",
+    "hex": "#101529"
+  },
+  {
+    "collection": "Punch DDS",
+    "mode": "Deep Black",
+    "name": "Gradients/bg-blue-5",
+    "hex": "#101529"
+  }
+]

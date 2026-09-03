@@ -1,0 +1,99 @@
+.button {
+  position: relative;
+  display: inline-block;
+  width: 328px;
+  height: 40px;
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 44px;
+  right: 44px;
+  transform: translateY(-50%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-family: var(--font-family-base);
+  font-size: var(--font-body-b2-semibold-size);
+  font-weight: var(--font-body-b2-semibold-weight);
+  line-height: var(--font-body-b2-semibold-line-height);
+  color: var(--buttons-text-primary);
+  text-align: center;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+}
+
+.iconLeft {
+  left: 16px;
+}
+
+.iconRight {
+  right: 16px;
+}
+
+.button:disabled {
+  background-color: var(--buttons-bg-tertiary);
+  color: var(--buttons-text-primary);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Success */
+.success {
+  background-color: var(--buttons-bg-success);
+}
+.success:hover:not(:disabled) {
+  background-color: var(--green-1500);
+}
+.success:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--outline-success);
+}
+
+/* Error */
+.error {
+  background-color: var(--buttons-bg-error);
+}
+.error:hover:not(:disabled) {
+  background-color: var(--red-100);
+}
+.error:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--outline-error);
+}
+
+/* Warning */
+.warning {
+  background-color: var(--buttons-bg-pending);
+}
+.warning:hover:not(:disabled) {
+  background-color: var(--orange-100);
+}
+.warning:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px var(--outline-pending);
+}
+
+/* Secondary */
+.secondary {
+  background-color: var(--buttons-bg-secondary-cta);
+  box-shadow: inset 0 0 0 1px var(--buttons-outline-secondary-cta);
+}
+.secondary:hover:not(:disabled) {
+  background-color: var(--neutral-200);
+}
+.secondary:focus-visible {
+  outline: none;
+  box-shadow: inset 0 0 0 1px var(--buttons-outline-secondary-cta), 0 0 0 4px var(--outline-on-primary);
+}
