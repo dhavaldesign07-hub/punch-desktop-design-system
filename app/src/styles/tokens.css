@@ -240,6 +240,7 @@
   --buttons-bg-tertiary: var(--primitive-neutral-700);
   --buttons-outline-secondary-cta: var(--primitive-black-and-white-white);
   --buttons-text-primary: var(--primitive-neutral-1000);
+  --buttons-text-secondary: var(--primitive-neutral-400);
 
   --outline-success: var(--primitive-green-400);
   --outline-error: var(--primitive-red-300);
@@ -252,6 +253,33 @@
   --neutral-200: var(--primitive-neutral-200);
 
   --bg-main-page-primary: var(--primitive-neutral-1000);
+
+  --chips-bg-scrip-tag: var(--primitive-blue-500);
+  --chips-text-scrip-tag: var(--primitive-black-and-white-white);
+  --icons-icon-on-active: var(--primitive-black-and-white-white);
+
+  --input-field-text-order-type: var(--primitive-neutral-1000);
+  --input-field-bg-number-input: var(--primitive-neutral-200);
+  --input-field-outline-scrip-box: var(--primitive-neutral-200);
+  --input-field-outline-tertiary: var(--primitive-blue-500);
+  --input-field-text-input-value: var(--primitive-black-and-white-white);
+  --input-field-label: var(--primitive-neutral-400);
+  --input-field-bg-stepper-btn: var(--primitive-neutral-200);
+  --input-field-bg-qty: var(--primitive-black-and-white-white);
+  --input-field-text-qty: var(--primitive-neutral-1000);
+  --input-field-icon-stepper: var(--primitive-neutral-500);
+  --input-field-bg-stepper-chip-active: var(--primitive-blue-600);
+  --input-field-text-stepper-chip-active: var(--primitive-black-and-white-white);
+  --input-field-outline-stepper-chip: var(--primitive-neutral-500);
+  --input-field-text-stepper-chip: var(--primitive-neutral-500);
+  --input-field-bg-disabled: var(--primitive-neutral-300);
+  --input-field-text-disabled: var(--primitive-neutral-500);
+
+  --order-form-bg: var(--primitive-blue-500);
+  --order-form-text-heading: var(--primitive-black-and-white-white);
+  --order-form-text-value-positive: var(--primitive-green-400);
+  --order-form-text-value-negative: var(--primitive-red-300);
+  --order-form-text-footer: var(--primitive-neutral-200);
 
   /* ═══════════════════════════════════════════════════════
      Typography — all text styles from Figma

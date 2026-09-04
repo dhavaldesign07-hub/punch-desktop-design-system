@@ -2,12 +2,12 @@
 
 Format follows [Keep a Changelog](https://keepachangelog.com/). Dates in YYYY-MM-DD.
 
-## 2026-09-02 (2)
+## 2025-09-02 (2)
 
 ### Added
 - `Documentation` section in Storybook's sidebar: `Contributing` and `Changelog` MDX pages that render this repo's `CONTRIBUTING.md`/`CHANGELOG.md` live (via a raw import), so the docs shown to engineers can't drift from the actual files.
 
-## 2026-09-02
+## 2025-09-02
 
 ### Added
 - Project scaffolded: Vite + React + TypeScript + Storybook 10 (`app/`).

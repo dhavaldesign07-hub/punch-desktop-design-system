@@ -1,0 +1,54 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  width: 414px;
+  height: 40px;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  font-family: var(--font-family-base);
+  cursor: pointer;
+  transition: flex-basis 0.15s ease;
+}
+
+.sellInactive,
+.buyInactive {
+  flex: 0 0 110px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  color: var(--buttons-text-secondary);
+  background: transparent;
+}
+
+.sellActive,
+.buyActive {
+  flex: 1 1 auto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--buttons-text-primary);
+  border-color: transparent;
+}
+
+.sellInactive {
+  background-color: color-mix(in srgb, var(--buttons-liquid-sell) 20%, transparent);
+  border-color: var(--outline-error);
+}
+
+.buyInactive {
+  background-color: var(--buttons-liquid-buy);
+  border-color: var(--outline-success);
+}
+
+.sellActive {
+  background-color: var(--buttons-bg-error);
+}
+
+.buyActive {
+  background-color: var(--buttons-bg-success);
+}

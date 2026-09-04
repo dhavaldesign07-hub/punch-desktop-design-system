@@ -1,0 +1,127 @@
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: 446px;
+  padding: 16px;
+  background-color: color-mix(in srgb, var(--order-form-bg) 65%, transparent);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  padding-bottom: 16px;
+}
+
+.scripInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.scripName {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  color: var(--order-form-text-heading);
+}
+
+.changeRow {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.changeValue {
+  font-family: var(--font-family-base);
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11px;
+  color: var(--order-form-text-value-positive);
+}
+
+.negative {
+  color: var(--order-form-text-value-negative);
+}
+
+.tabsRow {
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.depthBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--input-field-bg-number-input);
+  color: var(--input-field-text-order-type);
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  margin: 0 -16px;
+  background-color: color-mix(in srgb, var(--order-form-text-heading) 12%, transparent);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+
+.rowLabel {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--order-form-text-heading);
+}
+
+.hint {
+  font-size: 11px;
+  font-weight: 400;
+  color: var(--input-field-label);
+}
+
+.staticPriceBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 122px;
+  height: 24px;
+  border: 1px solid var(--input-field-outline-scrip-box);
+  border-radius: 2px;
+  font-family: var(--font-family-base);
+  font-size: var(--font-body-b4-medium-size);
+  font-weight: var(--font-body-b4-medium-weight);
+  color: var(--input-field-label);
+}
+
+.footer {
+  padding: 24px 0;
+}
+
+.marginRow {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  color: var(--order-form-text-footer);
+}
