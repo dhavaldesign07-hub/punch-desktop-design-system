@@ -1,0 +1,147 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 122px;
+}
+
+.wrapperMini {
+  width: 94px;
+}
+
+.label {
+  font-family: var(--font-family-base);
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11px;
+  color: var(--input-field-label);
+  text-align: center;
+}
+
+.inputRow {
+  display: flex;
+  align-items: stretch;
+  height: 24px;
+  gap: 1px;
+}
+
+.stepperBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: none;
+  background-color: var(--input-field-bg-stepper-btn);
+  color: var(--input-field-icon-stepper);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.stepperBtn:hover {
+  opacity: 0.8;
+}
+
+.stepperBtn:active {
+  opacity: 0.6;
+}
+
+.stepperBtn:disabled {
+  background-color: var(--input-field-bg-disabled);
+  color: var(--input-field-text-disabled);
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.qtyField {
+  flex: 1;
+  min-width: 0;
+  padding: 6px 2px;
+  border: none;
+  background-color: var(--input-field-bg-qty);
+  color: var(--input-field-text-qty);
+  font-family: var(--font-family-base);
+  font-size: var(--font-body-b4-medium-size);
+  font-weight: var(--font-body-b4-medium-weight);
+  line-height: var(--font-body-b4-medium-line-height);
+  text-align: center;
+  outline: none;
+  -moz-appearance: textfield;
+}
+
+.qtyField::-webkit-outer-spin-button,
+.qtyField::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qtyDisplay {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 2px;
+  background-color: var(--input-field-bg-qty);
+  font-family: var(--font-family-base);
+  font-size: var(--font-body-b4-medium-size);
+  font-weight: var(--font-body-b4-medium-weight);
+  line-height: var(--font-body-b4-medium-line-height);
+  color: var(--input-field-text-qty);
+}
+
+.stepperChips {
+  display: flex;
+  gap: 19px;
+  justify-content: flex-start;
+}
+
+.stepperChipsMini {
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 14px;
+  padding: 2px 4px;
+  border-radius: 22px;
+  border: 1px solid var(--input-field-outline-stepper-chip);
+  background: transparent;
+  color: var(--input-field-text-stepper-chip);
+  font-family: var(--font-family-base);
+  font-size: 9px;
+  font-weight: 500;
+  line-height: 11px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.chip:hover {
+  opacity: 0.8;
+}
+
+.chipActive {
+  background-color: var(--input-field-bg-stepper-chip-active);
+  border-color: var(--input-field-bg-stepper-chip-active);
+  color: var(--input-field-text-stepper-chip-active);
+}
+
+.disabled .stepperBtn,
+.disabled .qtyField,
+.disabled .qtyDisplay {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.disabled .stepperBtn {
+  pointer-events: none;
+}
+
+.disabled .chip {
+  pointer-events: none;
+  opacity: 0.4;
+}

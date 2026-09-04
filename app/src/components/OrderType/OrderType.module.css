@@ -1,0 +1,45 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 96px;
+  padding: 0;
+  border: none;
+  background: none;
+  text-align: left;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.label {
+  font-family: var(--font-family-base);
+  font-size: var(--font-caption-c2-regular-size);
+  font-weight: var(--font-caption-c2-regular-weight);
+  line-height: var(--font-caption-c2-regular-line-height);
+  color: var(--input-field-label);
+}
+
+.valueRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background-color: var(--input-field-bg-number-input);
+  border: 1px solid var(--input-field-outline-scrip-box);
+}
+
+.value {
+  font-family: var(--font-family-base);
+  font-size: var(--font-body-b4-medium-size);
+  font-weight: var(--font-body-b4-medium-weight);
+  line-height: var(--font-body-b4-medium-line-height);
+  color: var(--input-field-text-order-type);
+}
+
+.chevron {
+  flex-shrink: 0;
+  color: var(--input-field-text-order-type);
+}
